@@ -11,7 +11,9 @@ function App() {
 			<div className='container'>
 				<Table ticker={handleTickerSelected} />
 
-				{ticker && ticker.error ? (
+				{!ticker || !ticker.symbol ? (
+					''
+				) : ticker.error ? (
 					<p>{ticker.error}</p>
 				) : (
 					<Chart ticker={ticker} />

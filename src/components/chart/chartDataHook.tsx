@@ -30,8 +30,7 @@ export default function chartDataHook() {
 			if (dataFetch.hasOwnProperty('Information')) {
 				setTicker({
 					symbol: symbol,
-					error:
-						'Error: API rate limit exceeded. Please upgrade to a premium plan to increase your request limit.',
+					error: dataFetch['Information'],
 					xAxis: null,
 					closePrices: null,
 					volume: null,
