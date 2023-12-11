@@ -18,6 +18,6 @@ Spent about 12 hours in total on this project as i understand its mainly an exer
 
 https://jsfiddle.net/rq4d2xjz/
 
-exmpleTable.tsx
+exampleTable.tsx
 
 some Bard.google.com + copilot
