@@ -4,7 +4,7 @@ export default function chartDataHook() {
 	const [ticker, setTicker] = React.useState<{
 		symbol: string | null;
 		error: string | null;
-		xAxis: string[] | null; // Update the type of xAxis to string[]
+		xAxis: string[] | null;
 		closePrices: number[] | null;
 		volume: number[] | null;
 	}>({
@@ -13,7 +13,7 @@ export default function chartDataHook() {
 		xAxis: null,
 		closePrices: null,
 		volume: null,
-	}); // Initialize xAxis with null
+	});
 
 	const handleTickerSelected = async (symbol: string) => {
 		console.log('symbol received for the api call', symbol);
