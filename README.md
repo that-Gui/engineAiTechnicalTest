@@ -7,7 +7,7 @@ I began the chalenge using my usual tactic of breaking the work down to smaller 
 
 Spent about 12 hours in total on this project as i understand its mainly an exercise to see how i approach a problem and how i solve it.
 
-## Production errors =>
+# Production errors =>
 
 - Firstly i would have linked to utilise typescript as it would have helped me solve a lot of the errors and props types.
 - I would have also used a state management library like tanstack manage state, loading, etc.
